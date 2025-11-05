@@ -28,7 +28,7 @@
 
     try {
       // ⬅️ Pega aquí tu URL de PRODUCCIÓN del Webhook
-      const WEBHOOK_URL = 'https://flanconer.app.n8n.cloud/webhook/operacion-ai';
+      const WEBHOOK_URL = 'https://flanconer.app.n8n.cloud/webhook-test/operacion-ai';
 
       const res = await fetch(WEBHOOK_URL, {
         method: 'POST',
@@ -48,3 +48,4 @@
     }
   });
 })();
+
